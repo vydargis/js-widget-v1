@@ -2,7 +2,7 @@
 
 
 
-## Why use Webpack for this (I guess):
+Why use Webpack for this (I guess):
 
 Have a good structure for separation of concerns and test-ability, which means proper module loading
 
