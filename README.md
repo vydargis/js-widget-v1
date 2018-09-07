@@ -2,21 +2,21 @@
 
 
 
-# Why use Webpack for this (I guess):
+## Why use Webpack for this (I guess):
 
-## Have a good structure for separation of concerns and test-ability, which means proper module loading
+### Have a good structure for separation of concerns and test-ability, which means proper module loading
 
-## Convenient development experience via hot-module reloading (https://webpack.js.org/concepts/hot-module-replacement/)
-
-
-## use Babel for trasnpile ES6 to ES5
+### Convenient development experience via hot-module reloading (https://webpack.js.org/concepts/hot-module-replacement/)
 
 
-## JavaScript Widget
+### use Babel for trasnpile ES6 to ES5
+
+
+### JavaScript Widget
 This is a template for building JavaScript widget. 
 
 
-## Notes From Stackoverflow
+### Notes From Stackoverflow
 https://stackoverflow.com/questions/2411501/creating-a-javascript-widget-for-other-sites
 
 1 To prevent any interaction with a widget, put it in a self-executing function in a closure and don't create any global variables at all.
@@ -32,5 +32,5 @@ https://stackoverflow.com/questions/2411501/creating-a-javascript-widget-for-oth
 
 
 
-## CSS
+### CSS
 One down side that you need to be aware of. In this solution the CSS is not isolated from the rest of the styles on page - it's injected into the page itself under dynamically added style tag. 
