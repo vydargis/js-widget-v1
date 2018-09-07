@@ -4,12 +4,11 @@
 
 ## Why use Webpack for this (I guess):
 
-### Have a good structure for separation of concerns and test-ability, which means proper module loading
+Have a good structure for separation of concerns and test-ability, which means proper module loading
 
-### Convenient development experience via hot-module reloading (https://webpack.js.org/concepts/hot-module-replacement/)
+Convenient development experience via hot-module reloading (https://webpack.js.org/concepts/hot-module-replacement/)
 
-
-### use Babel for trasnpile ES6 to ES5
+Use Babel for trasnpile ES6 to ES5
 
 
 ### JavaScript Widget
